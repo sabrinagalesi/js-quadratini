@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#contenitor-square{
+    width: 50%;
+    height: 70%;
+}
+
+.square{
+    width: 25%;
+    height: 25%;
+    background: white;
+    float: left;
+    border: 1px solid darkcyan;
+    font-size: 20px;
+    text-align: center;
+    line-height: 150px;
+}
